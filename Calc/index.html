@@ -7,46 +7,30 @@
 </head>
 <body>
 	<div id="container">
-		<div id="calc_title"><img src="calc_image.png" id="calc_img"><h3>Calculator</h3></div>
+		<div id="calc_title"><img src="calc_image.png" id="calc_img"><h3>iCalculator</h3></div>
 		<div id="inner_container">
-			<div id="text_area"><p id="input"></p></div>
-			<div id="numbers_block">
-				<div class="high_lev">
-					<div class="numbers"><</div>
-					<div class="numbers">CE</div>
-					<div class="numbers">C</div>
-					<div class="numbers">+/-</div>
-				</div>
-				<div class="third_lev">
-					<div class="numbers">7</div>
-					<div class="numbers">8</div>
-					<div class="numbers">9</div>
-					<div class="numbers">/</div>
-				</div>
-				<div class="second_lev">
-					<div class="numbers">4</div>
-					<div class="numbers">5</div>
-					<div class="numbers">6</div>
-					<div class="numbers">*</div>
-				</div>
-				<div class="first_lev">
-					<div class="numbers">1</div>
-					<div class="numbers">2</div>
-					<div class="numbers">3</div>
-					<div class="numbers">-</div>
-				</div>
-				<div class="zero_lev">
-					<div class="numbers zero">0</div>
-					<div class="numbers">,</div>
-					<div class="numbers">+</div>
-				</div>	
+			<div id="active_panel"></div>
+			<div id="operators">
+				<a>+</a>
+				<a>-</a>
+				<a>*</a>
+				<a>/</a>
+				<a id="equals">=</a>
 			</div>
-			<div id="side_block">
-					<div class="numbers">root</div>
-					<div class="first_lev numbers">%</div>
-					<div class="second_lev numbers">1/x</div>
-					<div class=" zero_lev numbers eqv"><div>=</div></div>	
-				</div>
+			<div id="numbers">
+				<a>1</a>
+				<a>2</a>
+				<a>3</a>
+				<a>4</a>
+				<a>5</a>
+				<a>6</a>
+				<a>7</a>
+				<a>8</a>
+				<a>9</a>
+				<a id="clear">C</a>
+				<a>0</a>
+				<a id="clear_all">CE</a>
+			</div>
 		</div>
 	</div>
 </body>

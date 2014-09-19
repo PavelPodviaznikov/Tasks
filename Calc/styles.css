@@ -2,13 +2,19 @@ body{
 	background-color: #DCDCDC;
 
 }
+body, div, a {
+    padding:0;
+    margin:0;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 #container{
 	background-color: #ADD8E6;
-	width: 280px;
-	height: 370px;
-	margin: 60 auto;
-	border: 2px solid black;
-	border-radius: 5px;
+	width: 310px;
+	height: 460px;
+	border: 2px black solid;
+	margin: 30px auto;
+	padding: 5px;
+	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 #calc_title{
@@ -23,6 +29,9 @@ h3{
 	margin-left: 30px;
 	margin-top: 4px;
 }
+a{
+	cursor: pointer;
+}
 #calc_img{
 	position: absolute;
 	margin: 5px;
@@ -35,15 +44,60 @@ h3{
 	border-radius: 5px;
 	border: 1px solid black;
 }
-#text_area{
+#active_panel{
 	background-color: #F0F8FF;
-	height: 15%;
-	width: 95%;
+	height: 45px;
+	width: 270px;
 	border: 1px solid black;
 	border-radius: 5px;
 	margin: 10px auto;
+	text-align: right;
+	font-size: 35px;
+	padding: 0 5px;
 }
-#input{
+#numbers{
+	height: 266px;
+	width: 261px;
+	margin: 0 auto;
+}
+#operators{
+	height: 58px;
+	width: 290px;
+	margin: 0 auto;
+}
+
+#operators a{
+	display: block;
+	width: 40px;
+	height:40px;
+	float: left;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 39px;
+	padding: 2px;
+	margin: 5px 6px;
+	background-color: #F0F8FF;
+	border-radius: 5px;
+	border: 1px solid black;
+
+}
+#numbers a {
+	display: block;
+	width: 35px;
+	height: 35px;
+	float: left;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 30pt;
+	padding: 10px;
+	margin: 5px 15px;
+	background-color: #F0F8FF;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+/*#input{
 	margin-left: 250px;
 	margin-top: 6px;
 	direction: rtl;
@@ -90,4 +144,4 @@ h3{
 }
 .eqv div{
 	margin: 20 auto;
-}
+}*/
