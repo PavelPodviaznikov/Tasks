@@ -32,13 +32,20 @@ h3{
 a{
 	cursor: pointer;
 }
+#numbers a:hover{
+	background-color: #ADD8E6;
+}
+
+#operators a:hover{
+	background-color: #ADD8E6;
+}
 #calc_img{
 	position: absolute;
 	margin: 5px;
 }
 #inner_container{
 	background-color: #F5F5F5;
-	height: 85%;
+	height: 400px;
 	margin: 40 auto;
 	width: 95%;
 	border-radius: 5px;

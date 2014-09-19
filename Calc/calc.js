@@ -39,7 +39,7 @@ $(document).ready(function() {
 				answer = newNumber * number;
 				break;
 			case "/":
-				answer = newNumber/number;
+				answer = Math.floor(newNumber/number);
 			default:
 				answer = "error";			
 		}
