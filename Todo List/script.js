@@ -17,9 +17,9 @@ $(document).ready(function(){
 	$('#button').data('counter', 1).click(function() {
     clickCounter = $(this).data('counter');    
     $(this).data('counter', clickCounter + 1);        
-    if(clickCounter<=10){
+    if(clickCounter<=20){
     	var toAdd = $('#inputItem').val();
-        $('.list').append('<div class="item">'+clickCounter+". "+ toAdd + '</div>')
+        $('.list').append('<div class="item">'+ toAdd + '</div>')
         console.log(clickCounter);
 
     }
