@@ -30,16 +30,20 @@ $(document).ready(function() {
         doneList=[];
         $('hr').remove();
         $('#button').data('counter', 0);
+    	done_counter=0;
     	$('#undone_tasks_counter').text(undoneList.length);
     	$('#done_tasks_counter').text(doneList.length);
+
     });
     $(document).on('click','.item', function(){
         var task = $(this).text();
         for(var i=0; i<undoneList.length; i+=1){
         	if(undoneList[i]===task){
         		doneList.push(undoneList[i]);
+        		undoneList.slice(i,1);
         		$('#done_tasks').append('<div class="item">' + doneList[done_counter] + '</div><hr>');
         		done_counter+=1;
+
         	}
         }
         
