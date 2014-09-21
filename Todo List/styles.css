@@ -6,7 +6,6 @@
 	height: 500px;
 	border-radius: 20px;
 	border: solid red;
-	position: relative;
 }
 h2 {
     font-family:arial;
@@ -35,6 +34,8 @@ form {
 	color:#cc0000;
 	text-align: left;
 	margin-top: 15px;
+	height: 335px;
+	overflow: auto;
 }
 .item{
 	color: black;
